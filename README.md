@@ -39,10 +39,10 @@ If memcached authentication is required you can specify username and password:
 <property name="hibernate.memcached.password">memcached-password</property>
 ```
 
-If memcached are running on a remote server, e.g. on AWS ElastiCache, you can specify the connection URL:
+If memcached is running on a remote server, e.g. on AWS ElastiCache, you can specify the connection URL:
 
 ```xml
-<property name="hibernate.memcached.servers">cache.c3wd5k.cfg.euw1.cache.amazonaws.com:11211</property>
+<property name="hibernate.memcached.servers">cache.c3wd.cfg.euw1.cache.amazonaws.com:11211</property>
 ```
 
 # Versions
